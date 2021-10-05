@@ -10,5 +10,5 @@ RUN mkdir /app
 WORKDIR /app
 COPY ./app /app
 
-RUN adduser -D add recipe_api_user
+RUN adduser -D recipe_api_user
 USER recipe_api_user
